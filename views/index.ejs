@@ -1,0 +1,32 @@
+<% include head.ejs %>
+<% include nav.ejs %>
+
+<!-- Main jumbotron for a primary marketing message or call to action -->
+<div class="jumbotron">
+    <div class="container">
+        <h1>Node.js-Twitter</h1>
+        <p>select fun, profit from real_world where relational=false;</p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+    </div>
+</div>
+
+<div class="container">
+    <div id="info" style="display:none;"class="alert alert-info alert-dismissible" role="alert">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span></button>
+        <strong id="info-msg">Information: </strong>
+    </div>
+</div>
+
+<table class="table">
+        <thead>
+        <tr>
+            <th>Number</th>
+            <th>Message</th>
+        </tr>
+        </thead>
+        <tbody id="tab">
+        <tr/>
+        </tbody>
+ </table>
+<% include foot.ejs %>
