@@ -9,7 +9,8 @@
   },
   "keywords": [
     "Node.js",
-    "Socket.io"
+    "Socket.io",
+    "couchdb"
   ],
   "author": "qfdk",
   "license": "ISC",
