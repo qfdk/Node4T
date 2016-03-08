@@ -6,7 +6,7 @@ Dans le cadre de **Base de données avancés**, utilisant la technologie de NoSQ
 - Node.js
 - Socket.io
 - API Twitter
-- couchDB
+- couchDB (required)
 - Bootstrap
 
 ### Quick Start
@@ -17,6 +17,24 @@ Dans le cadre de **Base de données avancés**, utilisant la technologie de NoSQ
 4. Lancez la commande `npm install&&npm start`
 
 ### Usage
+Ajouter un fichier `config.js` dans la racine.
+
+```javascript
+const Access_Token = '...';
+const Access_Token_Secret = '...';
+const Consumer_Key = '...';
+const Consumer_Secret = '...';
+
+module.exports = {
+    consumer_key: Consumer_Key,
+    consumer_secret: Consumer_Secret,
+    access_token: Access_Token,
+    access_token_secret: Access_Token_Secret,
+    timeout_ms: 60 * 1000,
+    }
+```
+
+Puis lancez la commande suivante.
 
 ```bash
 git clone https://github.com/qfdk/Node4T.git

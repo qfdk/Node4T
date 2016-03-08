@@ -4,13 +4,12 @@
   "description": "Projet Twitter",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"todo\" ",
+    "test": "echo \"to do\"",
     "start": "node server.js"
   },
   "keywords": [
     "Node.js",
-    "Socket.io",
-    "couchdb"
+    "Socket.io"
   ],
   "author": "qfdk",
   "license": "ISC",
